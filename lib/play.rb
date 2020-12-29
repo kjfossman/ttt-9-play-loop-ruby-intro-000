@@ -36,7 +36,8 @@ def turn(board)
 end
 
 def play(board)
-  9.times do turn(board)
-
+  9.times do 
+    turn(board)
+end
 end
 # Define your play method below
